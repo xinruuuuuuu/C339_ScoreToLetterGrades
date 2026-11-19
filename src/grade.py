@@ -18,7 +18,7 @@ def score_to_letter_grade(score):
 
 
 def main():
-    score = float(input("Enter the score: "))
+    score = float(input("Enter the scores: "))
     grade = score_to_letter_grade(score)
     print(f"Letter grade: {grade}")
 
